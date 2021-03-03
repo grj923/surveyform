@@ -7,6 +7,31 @@
     <title>Document</title>
   </head>
   <body>
-    Hello world
+    <h1 id="title">My Survey Form</h1>
+    <p id="description">
+      This is my survey form. I have no idea what it is going to be about, yet.
+    </p>
+    <form id="survey-form">
+      <input type="text" placeholder="Name" required id="name" />
+      <label id="name-label">Name</label>
+      <br />
+      <input type="email" placeholder="Email" id="email" />
+      <label id="email-label">Email</label>
+      <br />
+      <input type="number" placeholder="Number" id="number" min="1" max="5" />
+      <label id="number-label">Number</label>
+      <br />
+      <label for="Something here">Choose something:</label>
+      <select id="dropdown">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
