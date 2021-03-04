@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  color: white;
+  background-color: #b1d4e0;
+  background-image: linear-gradient(
+    to right,
+    #b1d4e0,
+    #7c959e,
+    #2e8bc0,
+    #145da0,
+    #b1d4e0
+  );
+}
+
+#title {
+  color: #0c2d48;
+  font-size: 60px;
+}
+#description {
+  font-size: 25px;
+}
+
+.form-area {
+  background-color: #274472;
+  font-size: 25px;
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  text-align: center;
+}
+#submit {
+  color: white;
+  background-color: #41729f;
+  width: 80%;
+  height: 40px;
+}
+#name {
+  width: 50%;
+  height: 30px;
+}
+#email {
+  width: 50%;
+  height: 30px;
+}
+#number {
+  width: 20%;
+  height: 30px;
+}

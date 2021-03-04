@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
   <body>
@@ -11,6 +12,8 @@
     <p id="description">
       This is my survey form. I have no idea what it is going to be about, yet.
     </p>
+    <div class="form-area">
+    
     <form id="survey-form">
       <input type="text" placeholder="Name" required id="name" />
       <label id="name-label">Name</label>
@@ -21,6 +24,8 @@
       <input type="number" placeholder="Number" id="number" min="1" max="5" />
       <label id="number-label">Number</label>
       <br />
+    </div> 
+    <div class="form-area">
       <label for="Something here">Choose something:</label>
       <select id="dropdown">
         <option value="1">1</option>
@@ -29,7 +34,100 @@
         <option value="4">4</option>
         <option value="5">5</option>
       </select>
-      <button type="submit">Submit</button>
+      <br />
+    </div>  
+      <div class="form-area">
+      <p id="radio-intro">Please select something here:</p>
+      <label>
+        <input 
+          type="radio" 
+          id="radio1" 
+          name="something" 
+          value="something1" />
+        something1
+      </label>
+      <br />
+      <label>
+        <input 
+          type="radio" 
+          id="radio2" 
+          name="something" 
+          value="something2" />
+        something1</label
+      >
+      <br />
+      <label for="radio1">
+        <input 
+          type="radio" 
+          id="radio3" 
+          name="something" 
+          value="something3" />
+        something1</label
+      >
+      <br />
+      <label>
+        <input 
+          type="radio" 
+          id="radio4" 
+          name="something" 
+          value="something4" />
+        something1</label
+      >
+      <br />
+      <label>
+        <input 
+          type="radio" 
+          id="radio5" 
+          name="something" 
+          value="something5" />
+        something1</label
+      >
+      <br />
+      <label for="radio1">
+        <input 
+          type="radio" 
+          id="radio6" 
+          name="something" 
+          value="something6" />
+        something1</label
+      >
+      <br />
+    </div>  
+    <div class="form-area">
+      <input
+        type="checkbox"
+        name="somekindofstuff"
+        id="somekindofstuff"
+        value="somekindofstuff"
+      />
+      <label for="somekindofstuff">somekindofstuff</label><br />
+      <input
+        type="checkbox"
+        name="somekindofstuff1"
+        id="somekindofstuff1"
+        value="somekindofstuff1"
+      />
+      <label for="somekindofstuff">somekindofstuff</label><br>
+      <input
+        type="checkbox"
+        name="somekindofstuff2"
+        id="somekindofstuff2"
+        value="somekindofstuff2"
+      />
+      <label for="somekindofstuff">somekindofstuff</label><br>
+      <input
+        type="checkbox"
+        name="somekindofstuff3"
+        id="somekindofstuff3"
+        value="somekindofstuff3"
+      />
+      <label for="somekindofstuff">somekindofstuff</label><br>
+    <div class="form-area">
+      <input type="text" name="whatElse" id="whatElse" />
+    </div>  
+    <div class="form-area">
+      <button type="submit" id="submit">Submit</button>
+    </div>  
     </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
