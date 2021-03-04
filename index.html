@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Cat Survey</title>
   </head>
   <body>
-    <h1 id="title">My Survey Form</h1>
+    <h1 id="title">Are You A Cat Person?</h1>
     <p id="description">
-      This is my survey form. I have no idea what it is going to be about, yet.
+      Answer The Questions and Find Out!
+      <br> 
+      
     </p>
     <div class="form-area">
     
@@ -21,30 +23,31 @@
       <input type="email" placeholder="Email" id="email" />
       <label id="email-label">Email</label>
       <br />
-      <input type="number" placeholder="Number" id="number" min="1" max="5" />
-      <label id="number-label">Number</label>
+      <label id="number-label">How Many Cats Do You Have?</label>
       <br />
+      <input type="number" placeholder="Number" id="number" min="0" max="5" />
+      <br>
     </div> 
     <div class="form-area">
-      <label for="Something here">Choose something:</label>
+      <label for="Something here">How Do You Feel About Cats?:</label>
       <select id="dropdown">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
+        <option value="hateCats">I Hate Cats</option>
+        <option value="hateCats">More of a dog person</option>
+        <option value="likeCats">I like cats don't love 'em</option>
+        <option value="loveCats">I Love Cats</option>
+        <option value="crazyCatLady">I'm a crazy cat lady</option>
       </select>
       <br />
     </div>  
       <div class="form-area">
-      <p id="radio-intro">Please select something here:</p>
+      <p id="radio-intro">What Do You Like Most About Cats?:</p>
       <label>
         <input 
           type="radio" 
           id="radio1" 
           name="something" 
-          value="something1" />
-        something1
+          value="hateCats" />
+        I said I Hate cats
       </label>
       <br />
       <label>

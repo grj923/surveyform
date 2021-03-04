@@ -15,6 +15,7 @@ body {
 #title {
   color: #0c2d48;
   font-size: 60px;
+  font-family: cursive;
 }
 #description {
   font-size: 25px;
@@ -35,11 +36,11 @@ body {
   height: 40px;
 }
 #name {
-  width: 50%;
+  width: 30%;
   height: 30px;
 }
 #email {
-  width: 50%;
+  width: 30%;
   height: 30px;
 }
 #number {
