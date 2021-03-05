@@ -17,8 +17,14 @@
     <div class="form-area">
     
     <form id="survey-form">
-      <input type="text" placeholder="Name" required id="name" />
-      <label id="name-label">Name</label>
+      <label id="name-label" for="name">Name</label>
+      <input 
+        type="text" 
+        name="name" 
+        id="name"
+        placeholder="Enter Your Name"
+      />
+      
       <br />
       <input type="email" placeholder="Email" id="email" />
       <label id="email-label">Email</label>
@@ -29,107 +35,123 @@
       <br>
     </div> 
     <div class="form-area">
-      <label for="Something here">How Do You Feel About Cats?:</label>
+      <p>What Do like or hate most about cats?</p>
       <select id="dropdown">
-        <option value="hateCats">I Hate Cats</option>
-        <option value="hateCats">More of a dog person</option>
-        <option value="likeCats">I like cats don't love 'em</option>
-        <option value="loveCats">I Love Cats</option>
-        <option value="crazyCatLady">I'm a crazy cat lady</option>
+        <option value="hatecats">I hate cats</option>
+        <option value="hatecats">I don't hate cats just more of a dog person.</option>
+        <option value="likecats">I like cats.</option>
+        <option value="lovecats">I love cats!</option>
+        <option value="crazycatlady">I'm a crazy cat lady or man.</option>
       </select>
       <br />
     </div>  
       <div class="form-area">
-      <p id="radio-intro">What Do You Like Most About Cats?:</p>
+      <p id="radio-intro">What Do You Like or Hate Most About Cats?:</p>
       <label>
         <input 
           type="radio" 
           id="radio1" 
-          name="something" 
-          value="hateCats" />
-        I said I Hate cats
+          name="cats" 
+          value="hatecats" />
+        Like I said I hate cats
       </label>
       <br />
       <label>
         <input 
           type="radio" 
           id="radio2" 
-          name="something" 
-          value="something2" />
-        something1</label
+          name="cats" 
+          value="hatecats" />
+        Cats can't do tricks</label
       >
       <br />
       <label for="radio1">
         <input 
           type="radio" 
           id="radio3" 
-          name="something" 
-          value="something3" />
-        something1</label
+          name="cats" 
+          value="lovecats" />
+        They are independent thinkers</label
       >
       <br />
       <label>
         <input 
           type="radio" 
           id="radio4" 
-          name="something" 
-          value="something4" />
-        something1</label
+          name="cats" 
+          value="lovecats" />
+        They are so chill!</label
       >
       <br />
       <label>
         <input 
           type="radio" 
           id="radio5" 
-          name="something" 
-          value="something5" />
-        something1</label
+          name="cats" 
+          value="lovecats" />
+        They never tear up the house!</label
       >
       <br />
       <label for="radio1">
         <input 
           type="radio" 
           id="radio6" 
-          name="something" 
-          value="something6" />
-        something1</label
+          name="cats" 
+          value="lovecats" />
+        They love you uinconditionally!</label
       >
       <br />
     </div>  
     <div class="form-area">
+      <p>Test Your Cat Knowledge - Pick the True Statements About Cats</p>
       <input
         type="checkbox"
-        name="somekindofstuff"
-        id="somekindofstuff"
-        value="somekindofstuff"
+        name="catknowledge"
+        value="falsecatfact"
       />
-      <label for="somekindofstuff">somekindofstuff</label><br />
+      <label for="catknowledge">They don’t come when you call</label><br />
       <input
         type="checkbox"
-        name="somekindofstuff1"
-        id="somekindofstuff1"
-        value="somekindofstuff1"
+        name="catknowledge"
+        value="falsecatfact"
       />
-      <label for="somekindofstuff">somekindofstuff</label><br>
+      <label for="catknowledge">Cats are just as trainable as dogs!</label><br>
       <input
         type="checkbox"
-        name="somekindofstuff2"
-        id="somekindofstuff2"
-        value="somekindofstuff2"
+        name="catknowledge"
+        value="falsecatfact"
       />
-      <label for="somekindofstuff">somekindofstuff</label><br>
+      <label for="catknowledge">Cats like to be alone and aren’t loving like dogs</label><br>
       <input
         type="checkbox"
-        name="somekindofstuff3"
-        id="somekindofstuff3"
-        value="somekindofstuff3"
+        name="catknowledge"
+        value="truecatfact"
       />
-      <label for="somekindofstuff">somekindofstuff</label><br>
+      <label for="catknowledge">Cats spend 70% of their lives sleeping</label><br>
+      <input
+      type="checkbox"
+      name="catknowledge"
+      value="truecatfact"
+    />
+    <label for="catknowledge">Cats walk like camels and giraffes</label><br>
+    <input
+      type="checkbox"
+      name="catknowledge"
+      value="truecatfact"
+    />
+    <label for="catknowledge">Isaac Newton invented the cat door</label><br>
+    <input
+      type="checkbox"
+      name="catknowledge"
+      value="truecatfact"
+    />
+    <label for="catknowledge">Didga the cat can perform 24 tricks in one minute</label><br>
     <div class="form-area">
       <input type="text" name="whatElse" id="whatElse" />
     </div>  
+    <button type="submit" id="submit">Submit</button>
     <div class="form-area">
-      <button type="submit" id="submit">Submit</button>
+      
     </div>  
     </form>
 
