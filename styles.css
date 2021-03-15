@@ -46,3 +46,24 @@ email-label {
 #number-label {
   width: 100px;
 }
+
+@media (max-width: 700px) {
+  #dropdown {
+    width: 60px;
+  }
+}
+@media (max-width: 1000px) {
+  #comments {
+    width: 60px;
+  }
+}
+@media (max-width: 400px) {
+  #name {
+    width: 60px;
+  }
+}
+@media (max-width: 400px) {
+  #email {
+    width: 60px;
+  }
+}
